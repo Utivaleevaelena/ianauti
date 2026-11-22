@@ -21,4 +21,4 @@ npm run build    # type-check + production build into dist/
 - `src/hooks/usePlayer.ts` – transport state
 
 ## Deploy to Vercel
-Import the repo (framework: Vite, build `npm run build`, output `dist`; see `vercel.json`).
+Import the repo, set **Root Directory** to `melody-grid` (framework: Vite, build `npm run build`, output `dist`; see `vercel.json`).
